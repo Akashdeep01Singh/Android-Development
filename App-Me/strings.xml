@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">appme</string>
+    <string name="this_is_second_activity_page">This is second activity page</string>
+    <string name="search">Search</string>
+</resources>

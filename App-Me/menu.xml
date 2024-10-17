@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/Search"
+        android:title="@string/search"
+        android:icon="@drawable/baseline_search_24"
+        app:showAsAction="always"/>
+
+
+    <item
+        android:id="@+id/Dashboard"
+        android:title="Dashboard"
+        android:icon="@drawable/baseline_search_24"
+        app:showAsAction="never"
+        >
+    <menu>
+
+        <item
+            android:id="@+id/Home"
+            android:title="home"
+            android:icon="@drawable/baseline_search_24"
+            app:showAsAction="never"/>
+
+    </menu>
+
+    </item>
+
+
+    <item
+        android:id="@+id/About_us"
+        android:title="About Us"
+        android:icon="@drawable/baseline_search_24"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/Contact"
+        android:title="Contact Us"
+        android:icon="@drawable/baseline_search_24"
+        app:showAsAction="never"/>
+
+
+
+
+</menu>

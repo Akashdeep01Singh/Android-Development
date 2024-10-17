@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This is my First Activity"
+        android:textSize="25sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="explicit_content"
+        tools:ignore="HardcodedText"
+        android:layout_gravity="center"
+        />
+
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="implicit_content"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btndail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="dial"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btnmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Message"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/toastt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="toastt1"
+        android:text="Toast-Test"
+        />
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:title="My App"
+            app:titleTextColor="@color/white"
+            />
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
